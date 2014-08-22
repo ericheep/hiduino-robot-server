@@ -29,6 +29,6 @@ Then to send to a robot:
     oout.add(velocity)
     oout.send();
 
-To connect using MIDI, see the check out the [midi-robot-client](https://github.com/MTIID/midi-robot-client) repo.
+To connect using MIDI, check out the [midi-robot-client](https://github.com/MTIID/midi-robot-client) repo.
 
 If there are issues connecting, email ericheep@alum.calarts.edu
