@@ -5,7 +5,7 @@ Jointly maintained by CalArts Music Tech.
 
 Allows for Hiduino communication to the Karmetik Machine Orchestra Robots.
 
-Currently support robots with their MIDI channel: 
+Currently supported robots with their MIDI channel: 
 
     Ch 0 MahaDevi
     Ch 1 GanaPati
@@ -24,9 +24,9 @@ To connect using ChucK via OSC:
 
 Then to send to a robot: 
 
-    oout.start("/Address")
-    oout.add(note)
-    oout.add(velocity)
+    oout.start("/Address");
+    oout.add(note);
+    oout.add(velocity);
     oout.send();
 
 To connect using MIDI, check out the [midi-robot-client](https://github.com/MTIID/midi-robot-client) repo.
